@@ -1,0 +1,19 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build_job:
+  stage: build
+  script:
+    - echo "Hello, World! Building the project..."
+
+test_job:
+  stage: test
+  script:
+    - echo "Hello, World! Testing the project..."
+
+deploy_job:
+  stage: deploy
+  script:
+    - echo "Hello, World! Deploying the project..."
